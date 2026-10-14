@@ -1,0 +1,6 @@
+# Direct dependencies pinned to the versions in the inspected environment.
+pyspark==4.2.0
+pybaseball==2.2.7
+pandas==3.0.6
+pyarrow==25.0.1
+matplotlib==3.11.2

@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Notebook kernel; open notebooks with a Jupyter-compatible editor.
+ipykernel==7.4.0

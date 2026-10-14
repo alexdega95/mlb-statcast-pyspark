@@ -1,0 +1,36 @@
+# Local datasets, downloaded caches, and generated Spark output
+/data/*
+!/data/README.md
+*.parquet
+*.crc
+_SUCCESS
+/artifacts/
+/spark-warehouse/
+/metastore_db/
+derby.log
+*.log
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Credentials and local tooling
+.env
+.env.*
+!.env.example
+.aws/
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
